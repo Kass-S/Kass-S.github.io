@@ -42,3 +42,7 @@ a{
 a:hover{
    text-decoration: underline;
 }
+
+section>a{
+   color: black;
+}
