@@ -86,20 +86,27 @@ div#cube_bottom{
    transform: translateY(200px) rotateX(90deg);
 }
 
+/* Neon Glow Animation */
 .neon-text{
-   text-shadow: 0 0 10px rgb(195, 183, 15), 0 0 20px rgb(195, 183, 15), 0 0 40px rgb(195, 183, 15), 0 0 80px rgb(195, 183, 15), 0 0 160px rgb(195, 183, 15);
-   animation: glow 2.5s infinite ; 
+   text-shadow: 0 0 5px rgb(195, 162, 15), 0 0 10px rgb(195, 183, 15), 0 0 20px rgb(195, 162, 15), 0 0 40px rgb(195, 162, 15), 0 0 60px rgb(195, 162, 15);
+   animation: glow 4s linear infinite; 
 }
 
 @keyframes glow{
    0%{
-      text-shadow: 0 0 10px rgb(195, 183, 15), 0 0 20px rgb(195, 183, 15), 0 0 40px rgb(195, 183, 15), 0 0 80px rgb(195, 183, 15), 0 0 160px rgb(195, 183, 15);
-    }
+      text-shadow: 0 0 5px rgb(195, 140, 15), 0 0 10px rgb(195, 140, 15), 0 0 20px rgb(195, 140, 15), 0 0 40px rgb(195, 140, 15), 0 0 60px rgb(195, 140, 15);
+   }
+   25%{
+      text-shadow: 0 0 2px rgb(195, 120, 15), 0 0 6px rgb(195, 120, 15), 0 0 12px rgb(195, 120, 15), 0 0 24px rgb(195, 120, 15), 0 0 48px rgb(195, 120, 15);
+   }
    50%{
-      text-shadow: 0 0 5px rgb(195, 66, 15), 0 0 10px rgb(195, 66, 15), 0 0 20px rgb(195, 66, 15), 0 0 40px rgb(195, 66, 15), 0 0 80px rgb(195, 66, 15);
+      text-shadow: 0 0 5px rgb(195, 90, 15), 0 0 10px rgb(195, 90, 15), 0 0 20px rgb(195, 90, 15), 0 0 40px rgb(195, 90, 15), 0 0 80px rgb(195, 90, 15);
+   }
+   75%{
+      text-shadow: 0 0 2px rgb(195, 120, 15), 0 0 6px rgb(195, 120, 15), 0 0 12px rgb(195, 120, 15), 0 0 24px rgb(195, 120, 15), 0 0 48px rgb(195, 120, 15);
    }
    100%{
-      text-shadow: 0 0 10px rgb(195, 183, 15), 0 0 20px rgb(195, 183, 15), 0 0 40px rgb(195, 183, 15), 0 0 80px rgb(195, 183, 15), 0 0 160px rgb(195, 183, 15);
+      text-shadow: 0 0 5px rgb(195, 140, 15), 0 0 10px rgb(195, 140, 15), 0 0 20px rgb(195, 140, 15), 0 0 40px rgb(195, 140, 15), 0 0 60px rgb(195, 140, 15);
    }
     
 }
