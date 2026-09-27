@@ -85,3 +85,21 @@ div#cube_top{
 div#cube_bottom{
    transform: translateY(200px) rotateX(90deg);
 }
+
+.neon-text{
+   text-shadow: 0 0 10px rgb(195, 183, 15), 0 0 20px rgb(195, 183, 15), 0 0 40px rgb(195, 183, 15), 0 0 80px rgb(195, 183, 15), 0 0 160px rgb(195, 183, 15);
+   animation: glow 2.5s infinite ; 
+}
+
+@keyframes glow{
+   0%{
+      text-shadow: 0 0 10px rgb(195, 183, 15), 0 0 20px rgb(195, 183, 15), 0 0 40px rgb(195, 183, 15), 0 0 80px rgb(195, 183, 15), 0 0 160px rgb(195, 183, 15);
+    }
+   50%{
+      text-shadow: 0 0 5px rgb(195, 66, 15), 0 0 10px rgb(195, 66, 15), 0 0 20px rgb(195, 66, 15), 0 0 40px rgb(195, 66, 15), 0 0 80px rgb(195, 66, 15);
+   }
+   100%{
+      text-shadow: 0 0 10px rgb(195, 183, 15), 0 0 20px rgb(195, 183, 15), 0 0 40px rgb(195, 183, 15), 0 0 80px rgb(195, 183, 15), 0 0 160px rgb(195, 183, 15);
+   }
+    
+}
