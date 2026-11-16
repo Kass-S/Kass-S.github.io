@@ -1,0 +1,27 @@
+body{
+    background-color: gray;
+    padding: 5em;
+    display: flex;
+    justify-content: center;
+}
+
+#button1{
+    background-color: #bc0b0b;
+    color: white;
+    font-size: 20px;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 20px;
+    transition: .25s;
+}
+#button1:hover{
+    background-color: #ff0000;
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 0px 6px 6px #9d0202;
+}
+#button1:active{
+    transform: scale(.75);
+    box-shadow: 0px 2px 2px #530101;
+    background-color: #7f0606;
+}
